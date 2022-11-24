@@ -18,7 +18,7 @@ const Cart = () => {
   const getCartItems = () => {
     var config = {
       method: "get",
-      url: "http://localhost:3001/api/v1/carts/",
+      url: "https://shopify-nextgen.herokuapp.com/api/v1/carts/",
       headers: {
         Authorization: "Bearer " + localStorage.getItem("userToken"),
       },
